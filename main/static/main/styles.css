@@ -1,0 +1,21 @@
+.dishes .main .container .row img{
+    max-width: 640px;
+    max-height: 640px;
+    width: fit-content;
+}
+
+.dishes .main .container .row .content{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    text-align: center;
+    justify-content: center;
+}
+
+.dishes .main .container .row .information{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    text-align: center;
+    justify-content: center;
+}
