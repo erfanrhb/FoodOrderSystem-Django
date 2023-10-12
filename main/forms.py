@@ -1,10 +1,9 @@
-"""
+from dataclasses import field
 from django import forms
-from .models import Item
+from .models import Reviews
 
-class AddForm(forms.ModelForm):
+
+class ReviewForm(forms.ModelForm):
     class Meta:
-        model = Item
-        fields = ('created_by',
-        'title', 'image', 'description', 'price', 'pieces', 'instructions', 'labels', 'label_colour', 'slug')
-        """
+        model = Reviews
+        fields = ["review"]
